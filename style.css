@@ -1,0 +1,469 @@
+/* various fonts  */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+ /* -----------------
+ body tag desain
+ ---------------------  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* end body tag desain */
+
+
+/* -----------------
+start hedar teg desain 
+------------------ */
+.main-div{
+    display: flex;
+}
+.main-hedar{
+    background-color: #2D25A0;
+    height: 600px;
+  
+/* -----------start copa desain------ */ 
+
+}
+.copa{
+    width: 485px;
+    height: 230px;
+    margin-left: 180px;
+    margin-top: 140px;
+    
+
+}
+.copa h1{
+    color: white;
+    font-size: 50px;
+}
+.copa h1:hover{
+    color: yellowgreen;
+}
+.copa .fa-arrow-right{
+    padding-left: 12px;
+}
+.copa a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    transition: .5s;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+.copa a:hover{
+   
+    color: black;
+    font-size: 22px;
+    background-color: wheat;
+}
+/*------------ end copa desain------- */
+
+
+ /* -------start kick desain---------- */
+.kick-football{
+  
+    margin-top: 53px;
+}
+.kick-football img{
+    Width :556.01px;
+    Height: 438px; 
+    transition: 2s ease-in; 
+}
+.kick-football img:hover{
+     transform: rotate(360deg);
+}
+
+/*------- end kick desain-------  */
+
+
+/* ---------end hedar tag desain-------*/
+
+/* -----------------
+    players desain 
+-----------------*/
+
+/* Players-section-desain */
+.players-section{
+    display: flex;
+    justify-content: center;
+}
+/* sub section desain */
+ .sub-section{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+justify-content: space-between;
+ padding-top: 80px;
+ 
+ }
+ /* main players desain */
+ .main-players{
+     width: 350px;
+ }
+
+ /* players desain */
+.players{
+    margin-top: 25px;
+    width: 300px;
+height: 480px;
+padding: 15px 15px;
+background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+/* player img desaain */
+
+.player img{
+    width: 300px;
+height: 256px;
+}
+
+/* player h1 desain */
+.player h1{
+    color:#18191F;
+    font-size: 28px;
+
+}
+/* .player p desain */
+.player p{
+    color: #6C6C6C;
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+
+/* --------------
+end playrs desain
+-------------- */
+
+
+/* start main section desain */
+.main-div{
+    display: flex;
+}
+
+
+
+
+/*-------------- start blog-and-photo-desain 
+------------------*/
+
+ .blog-and-photos{
+     display: flex;
+     margin-top: 150px;
+ }
+
+ /* start desain about-copa,h1,P */
+
+ .about-copa{
+     width: 469px;
+     margin-left: 150px;
+     margin-right: 100px;
+ }
+ .about-copa h1{
+    color: black;
+    font-size: 48px;
+ }
+ .about-copa p{
+font-size: 16px;
+color: #6C6C6C;
+font-weight: 300;
+ }
+ 
+ .about-copa.fa-arrow-right{
+    padding-left: 12px;
+}
+.about-copa a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+
+ /* end desain about-copa,h1,P */
+
+
+.messi-football{
+    width: 567px;
+    margin-left: 10px;
+     margin-right: 100px;
+
+}
+.messi-football img{
+    width: 567px;
+height: 427px;
+}
+/*--------- end blog-and-photo-desain ------*/
+
+
+ /* start about of football lagend  desain */
+
+
+ /* start about desain */
+.footballers-about{
+background-color: white;
+height: 300px;
+width: 80%;
+height: 180px;
+display: block;
+box-shadow: 4px 4px 35px gray;
+margin: auto;
+margin-top: 120px;
+}
+.abouts{
+        background-color: blue;
+}
+.abouts h1{
+   
+color: white;
+text-align: center;
+word-spacing: 20px;
+padding: 10px 20px;
+}
+/* end about desain */
+
+
+/* start lagend desain */
+.list-lagend{
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3,1fr)
+  
+}
+.lists-lagend h1{
+text-decoration: none;
+color:black;
+ border: 2px solid black;
+ text-align: center;
+ padding: 5px;
+ margin: 10px;
+}
+
+.list1 .lagend{
+background-color: white;
+}
+.list1:hover .lagend{
+background-color: rgb(143, 179, 245);
+}
+/* end lagand desain */
+
+
+/* start list2 desain */
+.list2 .list2-players{
+background-color: rgb(143, 179, 245);
+}
+.list2:hover .list2-players{
+ background-color: white;
+}
+/* end list2 desain */
+
+  
+/* start list3 desain */
+
+.list3 .list3-upcoming{
+background-color: white;
+}
+.list3:hover .list3-upcoming{
+background-color: rgb(143, 179, 245);
+}
+/* end list3 desain */
+ 
+ /* end about of football lagend  desain */
+
+
+ /* <!-- start club news desain --> */
+
+/* club news and image  */
+ .club-news{
+    margin-top: 200px;
+    display: grid;
+    margin-left: 30px;
+    height: 440px;
+ 
+    grid-template-columns: repeat(2,1fr);
+ 
+
+}
+ .images img{
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    margin-left: 60px;
+}
+
+/* start blog desain */
+.blogs{
+  
+    height: 350px;
+    margin-top: 70px;
+    margin-right: 30px;
+}
+.blog-strong{
+   color: lightcoral;
+   font-size: 20px;
+}
+.blog-h2{
+  font-size: 25px;
+    margin-left: 20px;
+    color: rgb(48, 109, 85);
+}
+.blog-para{
+    font-size: 16px;
+    margin-left: 22px ;
+}
+.blog-h6{
+    margin-left: 90%;
+    color: navy;
+}
+/* end blog desain */
+ 
+
+ /* <!-- end club news desain --> */
+ 
+
+/* ----------------start footer tag desain
+----------------------   */
+.footer{
+  padding-top: 200px;
+    height: 250px;
+    width: 500px;
+    margin-left: 400px;
+}
+
+ .img img{
+    height: 100px;
+    width: 600px;
+}
+.fonts-awsome{
+     margin-left: 200px;
+}
+.fonts-awsome p .fa-copyright{
+  color: #969BAB;
+  padding: 4px;
+  font-size: 22px;
+  
+}
+.copyright{
+    font-size: 18px;
+    margin-left: 150px ;
+    color: black;
+    
+}
+/*----------- end footer tag desain ----------*/
+
+ 
+
+/*-------------- Start media quries desain--------------------  */
+/*------- mobile device ------- */
+@media only screen and (max-width:688px) {
+   
+    
+    .main-hedar{
+        background-color: rebeccapurple;
+        height:800px;
+        width: 100%;
+    }
+    .main-div{
+        
+   
+        background-color: rebeccapurple;
+    }
+    .copa{
+    
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+  .copa h1{
+      font-size: 45px;
+  
+  }
+  .kick-football{
+    margin-top: 500px;
+  }
+  
+.kick-football img{
+    Width :329px;
+    Height: 259.17px; 
+    transition: 2s ease-in;
+    position: relative;
+    top: 10px;
+    right: 260px;
+}
+
+.sub-section{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+ .blog-and-photos{
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+ }
+ .about-copa{
+    width: 329px;
+     margin-left: 20px;
+     margin-right: 10px;
+      
+ }
+ .about-copa h1{
+    font-size: 30px;
+
+ }
+ .about-copa p{
+    font-size: 16px;
+ }
+ .messi-football{
+     margin-top: 50px;
+ }
+ 
+ .messi-football img{
+    width: 328px;
+    height: 248px;
+    margin-left: 16px;
+     
+ }
+ 
+.footballers-about{
+    display: grid;
+    box-shadow: none;
+    grid-template-columns: repeat(1fr);
+}
+.abouts{
+    width: 300px;
+}
+.list-lagend{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+ .club-news{
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+ }
+.club-news img{
+    margin-left: -20px;
+    height: 300px;
+    width: 300px;
+}
+
+.footer{
+   margin-left: 0px;
+   margin-top: 400px;
+}
+.footer img{
+    width: 200px;
+    margin-left: 70px;
+}
+
+.fonts-awsome  {
+ margin-left: 130px;
+    
+}
+
+.copyright{
+    margin-left: 70px;
+
+}
+ 
+
+}
